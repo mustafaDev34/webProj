@@ -1,0 +1,102 @@
+  .letter {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.2em;
+    font-weight: bold;
+  }
+
+  .headerr{
+    z-index: 2;
+  }
+
+  .page-link{
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+
+  .headline {
+    z-index: 2;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 2px 0 black, -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),   /*  https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text  */
+               1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+    
+  }
+
+  #keyboard{
+    z-index: 2;
+    
+  }
+
+  #timer {
+    background-color: rgb(196, 93, 56);
+    border-radius: 5px;
+    color: #fff;
+    
+  }
+
+  #button {
+    background-color: #ffffff;
+    color: rgb(181, 102, 102);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+  }
+
+  #reset-button {
+    background-color: #ffffff;
+    color: rgb(181, 102, 102);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    
+  }
+    
+  #button:hover {
+    background-color: #ca5f5f;
+    color: white;
+  }
+
+  .leadingP img {
+    z-index: 1;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 40%;
+    height: 50%;
+    max-height: 400px;
+    max-width: 300px;
+    min-width: 100px;
+    min-height: 200px;
+    opacity: 0.8;
+   
+  }
+
+  #reset-button:hover {
+    background-color: #ca5f5f;
+    color: white;
+  }
+
+  #olderWordsList{
+    color: black;
+    background-color: bisque;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    
+  }
+
+  #randomWord {
+    z-index: 2;
+    text-align: center;
+    font-size: 2em;
+    
+  }
